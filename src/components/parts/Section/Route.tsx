@@ -65,7 +65,7 @@ export function RouteSection() {
             textTransform="uppercase"
             fontFamily="heading"
           >
-            11,5 KM
+            10 KM
           </Text>
           <Text
             fontSize="2xl"
