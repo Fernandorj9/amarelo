@@ -190,7 +190,7 @@ export default function SubmitPage() {
 
           <Text mb="2">	As inscrições serão realizadas somente pelo site: https://passeiomaioamarelo.prefeiturademossoro.com.br/ tendo início no dia 04/05/2024 e término no dia 10/05/2024 ou até preencher números de vagas.</Text>
 
-          <Text mb="2">	A inscrição só será validada após doação de 2kg de alimento não perecível que devem ser entregues no dia 17/05 e/ou 18/05 das 10h às 22h no PARTAGE SHOPPING. Os alimentos arrecadados serão doados para a Instituições filantrópicas. O participante deverá apresentar no ato da doação um documento original com foto.</Text>
+          <Text mb="2">	A inscrição só será validada após doação de 1kg de alimento não perecível que devem ser entregues no dia 17/05 e/ou 18/05 das 10h às 22h no PARTAGE SHOPPING. Os alimentos arrecadados serão doados para a Instituições filantrópicas. O participante deverá apresentar no ato da doação um documento original com foto.</Text>
 
           {/* <Text mb="2">	O participante devidamente inscrito receberá no dia da doação dos alimentos uma camiseta alusiva ao evento juntamente com um passaporte (pulseira) que dará direito a receber uma medalha personalizada de metal no final do evento.</Text> */}
           {/* <Text mb="2">	O participante devidamente inscrito receberá uma camiseta alusiva ao evento juntamente com um passaporte (pulseira) que dará direito a receber uma medalha personalizada de metal no final do evento.</Text> */}
