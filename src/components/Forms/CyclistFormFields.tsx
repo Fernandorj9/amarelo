@@ -240,6 +240,7 @@ export function CyclistFormFields() {
           id={CYCLIST_SCHEMA.TSHIRT_SIZE}
           {...register(CYCLIST_SCHEMA.TSHIRT_SIZE)}
           error={errors.tshirtSize}
+          placeholder="P, M, G, GG, Infantil P, Infantil M, Infantil G"
 
           type="text"
 
