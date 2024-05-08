@@ -3,12 +3,15 @@ import { mask, unMask } from "remask";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { cyclistFormSchema, CYCLIST_SCHEMA, ICyclistFormFields } from "../../schemas/cyclist";
 import { Input } from "../Input";
+import { Select } from "../Select";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Cyclist, getNewCyClist } from "../../models/cyclist";
 import Router from "next/router";
 import { createCyclist } from "../../services/cyclist";
+import { TSHIRT_SIZE_TYPE } from '../../models/enums/tshirtSizeType';
+import { convertEnumToArray } from '../../utils/enumToArray';
 
 export function CyclistFormFields() {
   const toast = useToast()
@@ -235,16 +238,21 @@ export function CyclistFormFields() {
           label="E-mail"
         />
 
-        <Input
+        <Select
           name={CYCLIST_SCHEMA.TSHIRT_SIZE}
           id={CYCLIST_SCHEMA.TSHIRT_SIZE}
           {...register(CYCLIST_SCHEMA.TSHIRT_SIZE)}
           error={errors.tshirtSize}
-          placeholder="P, M, G, GG, Infantil P, Infantil M, Infantil G"
 
-          type="text"
+          label="Tamanho da camisa"
+          defaultValue='Escolha uma opção...'
+          placeholder="Escolha uma opção..."
+        >
+          {convertEnumToArray(TSHIRT_SIZE_TYPE).map(contact => (
+            <option key={contact.key} value={contact.value}>{contact.value}</option>
+          ))}
+        </Select>
 
-          label="Tamanho da camiseta" />
       </Flex>
 
       <Button
