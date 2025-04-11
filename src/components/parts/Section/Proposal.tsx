@@ -76,7 +76,7 @@ export function ProposalSection() {
             fontSize="2xl"
             textAlign="justify"
           >
-            O passeio ciclístico Maio Amarelo 2024, 
+            O passeio ciclístico Maio Amarelo 2025, 
             idealizado pela Secretaria Municipal de Segurança Pública, 
             Defesa Civil, Mobilidade Urbana e Trânsito (SESDEM) 
             tem como objetivo alerta a população sobre a importância de um trânsito seguro. 
@@ -85,7 +85,7 @@ export function ProposalSection() {
             promovendo um ambiente mais saudável e sustentável.
             <br />
             <br />
-            A entrega dos alimentos e retirada dos kits deve ser realizada no dia 17 e 18 de maio , entre as 10h e 22h no PARTAGE SHOPPING .
+            Fique ligado no nosso instagram para saber sobre a entrega do alimento e do kit.
           </Text>
         </Flex>
       </Flex>

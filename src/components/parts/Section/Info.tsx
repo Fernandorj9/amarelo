@@ -33,7 +33,7 @@ export function InfoSection() {
         fontWeight="black"
         textTransform="uppercase"
       >
-        19 DE MAIO<br />
+        1 DE MAIO<br />
         <Flex align="center" gridGap=""><Icon as={MdWatchLater} /> 06H30</Flex>
       </Heading>
 
@@ -42,7 +42,7 @@ export function InfoSection() {
         color="yellow"
         maxW="2xl"
       >
-        O ponto de partida do Passeio Ciclístico<br /> Maio Amarelo 2024 será no Corredor Cultural<br /> localizado na Avenida Rio Branco, ao lado do <br/> TEATRO MUNICIPAL DIX HUIT ROSADO.
+        O ponto de partida do Passeio Ciclístico<br /> Maio Amarelo 2025 será no Corredor Cultural<br /> localizado na Avenida Rio Branco, <br/> centro da cidade.
       </Text>
       {/* <Image
           src="/assets/camisa-maio-amarelo.webp"

@@ -30,7 +30,7 @@ export default function Home() {
 
           zIndex="2"
         >
-          #MAIOAMARELO2024<br />
+          #MAIOAMARELO2025<br />
 Um movimento internacional de<br />
 conscientizaçao para redução de<br />
 acidentes de trânsito. o trânsito deve<br />
@@ -64,7 +64,7 @@ situação.
           py="10"
 
           zIndex="2"
-          disabled={!isActiveSubscription}
+          //disabled={isActiveSubscription}
         >
           {/* {isActiveSubscription ? "Inscrições Encerradas" : "Regulamento"} */}
           {isActiveSubscription ? "Realizar Inscrição" : "Inscrições Encerradas"}

@@ -13,6 +13,7 @@ export function RouteSection() {
       id="percurso-section"
 
       color="black"
+      backgroundColor="#FCE321"
     >
       <Flex
         align="center"
@@ -65,7 +66,7 @@ export function RouteSection() {
             textTransform="uppercase"
             fontFamily="heading"
           >
-            10 KM
+            14,7 KM
           </Text>
           <Text
             fontSize="2xl"
@@ -74,17 +75,6 @@ export function RouteSection() {
             Contemplando espaços públicos e unidades dos principais parceiros do projeto.</Text>
         </Flex>
       </Flex>
-
-      <Image
-        src="/assets/percurso.jpg"
-        alt="figura de um mapa com a rota do passeio ciclístico."
-        maxW="5xl"
-        width="1280"
-        height="904"
-        alignSelf="center"
-        placeholder="blur"
-
-      />
     </Section >
   )
 }

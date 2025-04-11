@@ -180,17 +180,17 @@ export default function SubmitPage() {
 
           borderRadius={["4", "4", "4", "4", "2xl"]}
         >
-          <Text alignSelf="center" fontWeight="bold" mb="4">REGULAMENTO *retificado em 26/04/2024</Text>
+          <Text alignSelf="center" fontWeight="bold" mb="4">REGULAMENTO *retificado em 10/04/2025</Text>
 
-          <Text mb="2">	O evento esportivo, PASSEIO CICLÍSTICO MAIO AMARELO 2024 doravante denominado PASSEIO, será realizado na cidade de Mossoró com largada e chegada na rua Juvenal Lamartine, ao lado do antigo Fórum e poderão participar pessoas de ambos os sexos, regularmente inscritos de acordo com o REGULAMENTO OFICIAL do PASSEIO.</Text>
+          <Text mb="2">	O evento esportivo, PASSEIO CICLÍSTICO MAIO AMARELO 2025 doravante denominado PASSEIO, será realizado na cidade de Mossoró com largada e chegada na rua Juvenal Lamartine, ao lado do antigo Fórum e poderão participar pessoas de ambos os sexos, regularmente inscritos de acordo com o REGULAMENTO OFICIAL do PASSEIO.</Text>
 
-          <Text mb="2">	O Passeio Ciclístico Maio Amarelo 2024, idealizado pela Secretaria Municipal de Segurança Pública, Defesa Civil, Mobilidade Urbana e Trânsito (SESDEM) tem como objetivo alerta a população sobre a importância de um trânsito seguro. Além de estimular o uso de bicicletas como atividade física esportiva, na promoção da saúde e bem-estar. Possibilitando ainda uma alternativa de transporte, promovendo um ambiente mais saudável e sustentável.</Text>
+          <Text mb="2">	O Passeio Ciclístico Maio Amarelo 2025  , idealizado pela Secretaria Municipal de Segurança Pública, Defesa Civil, Mobilidade Urbana e Trânsito (SESDEM) tem como objetivo alerta a população sobre a importância de um trânsito seguro. Além de estimular o uso de bicicletas como atividade física esportiva, na promoção da saúde e bem-estar. Possibilitando ainda uma alternativa de transporte, promovendo um ambiente mais saudável e sustentável.</Text>
 
-          <Text mb="2">	O PASSEIO será realizado no dia 19/05/2024 com concentração às 6h e largada as 6h30min.</Text>
+          <Text mb="2">	O PASSEIO será realizado no dia 01/05/2025 com concentração às 6h e largada as 6h30min.</Text>
 
-          <Text mb="2">	As inscrições serão realizadas somente pelo site: https://passeiomaioamarelo.prefeiturademossoro.com.br/ tendo início no dia 04/05/2024 e término no dia 10/05/2024 ou até preencher números de vagas.</Text>
+          <Text mb="2">	As inscrições serão realizadas somente pelo site: https://passeiomaioamarelo.mossoro.rn.gov.br/ tendo início no dia 11/04/2025 e término no dia 17/04/2025 ou até preencher números de vagas.</Text>
 
-          <Text mb="2">	A inscrição só será validada após doação de 1kg de alimento não perecível que devem ser entregues no dia 17/05 e/ou 18/05 das 10h às 22h no PARTAGE SHOPPING. Os alimentos arrecadados serão doados para a Instituições filantrópicas. O participante deverá apresentar no ato da doação um documento original com foto.</Text>
+          <Text mb="2">	A inscrição só será validada após doação de 1kg de alimento não perecível que devem ser entregues após a divulgaçãp do local em nosso instagram. Os alimentos arrecadados serão doados para a Instituições filantrópicas. O participante deverá apresentar no ato da doação um documento original com foto.</Text>
 
           {/* <Text mb="2">	O participante devidamente inscrito receberá no dia da doação dos alimentos uma camiseta alusiva ao evento juntamente com um passaporte (pulseira) que dará direito a receber uma medalha personalizada de metal no final do evento.</Text> */}
           {/* <Text mb="2">	O participante devidamente inscrito receberá uma camiseta alusiva ao evento juntamente com um passaporte (pulseira) que dará direito a receber uma medalha personalizada de metal no final do evento.</Text> */}
