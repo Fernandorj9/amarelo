@@ -24,6 +24,8 @@ export function CyclistFormFields() {
   const [isAddressEditable, setIsAddressEditable] = useState(true);
 
   const handleCyclistSubmit: SubmitHandler<ICyclistFormFields> = async (values, e) => {
+    // console.log(values)
+
     let newCyclist: Cyclist = {
       ...getNewCyClist(),
       name: values.name,
@@ -41,7 +43,7 @@ export function CyclistFormFields() {
 
     try {
       await createCyclist(newCyclist);
-      console.log(newCyclist);
+
       toast({
         title: "Sucesso",
         description: "Inscrição realizada com sucesso",
@@ -50,18 +52,20 @@ export function CyclistFormFields() {
         status: "success"
       })
 
-      Router.push('/subscription/success');
+      Router.push('/subscription/success')
+
     } catch (e) {
-      if (!e.response?.data.message?.includes("email")) {
-        toast({
-          title: "Falha no cadastro",
-          description: e.response?.data.message || e.message || "Erro no cadastro",
-          isClosable: true,
-          position: "top",
-          status: "error"
-        });
-      }
+      console.log(e)
+
+      toast({
+        title: "Falha no cadastro",
+        description: e.response?.data.message || e.message || "Erro no cadastro",
+        isClosable: true,
+        position: "top",
+        status: "error"
+      })
     }
+
   }
 
   // procurar endereço por CEP
