@@ -85,7 +85,7 @@ export function ProposalSection() {
             promovendo um ambiente mais saudável e sustentável.
             <br />
             <br />
-            Fique ligado no nosso instagram para saber sobre a entrega do alimento e do kit.
+            A entrega dos kits deve ser realizada no dia 29 a 30 de abril , entre as 10h e 22h na loja da adidas, localizada no PARTAGE SHOPPING .
           </Text>
         </Flex>
       </Flex>

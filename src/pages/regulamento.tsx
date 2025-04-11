@@ -188,13 +188,13 @@ export default function SubmitPage() {
 
           <Text mb="2">	O PASSEIO será realizado no dia 01/05/2025 com concentração às 6h e largada as 6h30min.</Text>
 
-          <Text mb="2">	As inscrições serão realizadas somente pelo site: https://passeiomaioamarelo.mossoro.rn.gov.br/ tendo início no dia 11/04/2025 e término no dia 17/04/2025 ou até preencher números de vagas.</Text>
+          <Text mb="2">	As inscrições serão realizadas somente pelo site: https://passeiomaioamarelo.mossoro.rn.gov.br/ tendo início no dia 11/04/2025 e término no dia 13/04/2025 ou até preencher números de vagas.</Text>
 
-          <Text mb="2">	A inscrição só será validada após doação de 1kg de alimento não perecível que devem ser entregues após a divulgaçãp do local em nosso instagram. Os alimentos arrecadados serão doados para a Instituições filantrópicas. O participante deverá apresentar no ato da doação um documento original com foto.</Text>
+          <Text mb="2">	A inscrição só será validada após doação de 2kg de alimento não perecível que devem ser entregues após a divulgaçãp do local em nosso instagram. Os alimentos arrecadados serão doados para a Instituições filantrópicas. O participante deverá apresentar no ato da doação um documento original com foto.</Text>
 
           {/* <Text mb="2">	O participante devidamente inscrito receberá no dia da doação dos alimentos uma camiseta alusiva ao evento juntamente com um passaporte (pulseira) que dará direito a receber uma medalha personalizada de metal no final do evento.</Text> */}
           {/* <Text mb="2">	O participante devidamente inscrito receberá uma camiseta alusiva ao evento juntamente com um passaporte (pulseira) que dará direito a receber uma medalha personalizada de metal no final do evento.</Text> */}
-          <Text mb="2">	O participante devidamente inscrito receberá no dia da doação dos alimentos um camiseta alusiva evento.</Text>
+          <Text mb="2">	A entrega dos kits será realizada no dia 29 a 30 de abril das 10h às 22h na loja da adidas, localizada no partage shopping.</Text>
           
           <Text mb="2">	Somente será válida uma inscrição por CPF, menores de 18 anos só poderão participar acompanhados por um responsável. Todos os participantes devem possuir CPF.</Text>
 

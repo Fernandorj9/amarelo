@@ -12,7 +12,7 @@ export function useIsActiveSubscription() {
 
     count = await getCyclistSubscriptionsCount();
 
-    if (count <= 1500) {
+    if (count <= 3000) {
       if(isAfter(new Date(), new Date("2025-04-11")) && isBefore(new Date(), new Date("2025-04-17"))){
         setIsActiveSubscription(true);
       }

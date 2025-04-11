@@ -3,6 +3,7 @@ export enum TSHIRT_SIZE_TYPE {
   M = "M",
   G = "G",
   GG = "GG",
+  XG = "XG",
   INFANTIL_P = "Infantil P",
   INFANTIL_M = "Infantil M",
   INFANTIL_G = "Infantil G",
@@ -21,6 +22,9 @@ export function getUserTypeByValue(value: string): TSHIRT_SIZE_TYPE {
       break;
     case TSHIRT_SIZE_TYPE.GG:
       return TSHIRT_SIZE_TYPE.GG
+      break;
+    case TSHIRT_SIZE_TYPE.XG:
+      return TSHIRT_SIZE_TYPE.XG
       break;
     case TSHIRT_SIZE_TYPE.INFANTIL_P:
       return TSHIRT_SIZE_TYPE.INFANTIL_P
