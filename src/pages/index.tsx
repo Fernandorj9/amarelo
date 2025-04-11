@@ -19,7 +19,7 @@ export default function Home() {
       w="100%"
       direction="column"
     >
-      <Header pageName="Passeio Ciclístico 2024" />
+      <Header pageName="Passeio Ciclístico 2025" />
       <MainHero>
         <Heading
           fontWeight="black"
