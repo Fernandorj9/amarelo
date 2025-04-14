@@ -109,7 +109,7 @@ export default function SuccessPage({ hasConfirmed }: Props) {
           {!hasConfirmed && <Text mb="2">Enviamos um comprovante de inscrição para seu e-mail.</Text>}
           {!hasConfirmed && <Text fontWeight="bold" mb="2">Verifique também sua caixa de spam.</Text>}
           <Text>
-            Não esqueça de confirmar sua inscrição para o Passeio Ciclístico 2024.
+            Não esqueça de confirmar sua inscrição para o Passeio Ciclístico 2025.
             {/* levando 2kg de alimentos no dia 17 de setembro, das 7h às 12h, no Ginásio de Esporte Pedro Ciarlini. */}
           </Text>
         </Container>
